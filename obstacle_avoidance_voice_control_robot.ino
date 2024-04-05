@@ -1,7 +1,4 @@
 // Arduino Obstacle Avoidance + Voice Control Robot
-// Created by DIY Builder
-//Contact me here https://www.instagram.com/diy.builder/
-//You need to install the AFMotor and NewPing Libraries before uplodaing the sketch
 
 #include <AFMotor.h>
 #include <NewPing.h>
@@ -66,8 +63,6 @@ while(voice == "move backward") {
   backward();
 }
 }
-
-
 
 void forward() {
   int distance = sonar.ping_cm();
